@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color:blanchedalmond
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	height: 350px;
+	
+}
+.table th .table th {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	transition-duration: 1s,100ms,100ms;
+	transition-property: background-color,left,box-shadow;
+	transition-delay: 400ms,500ms,500ms;
+	
+}
+ 
+.table th:hover {
+	background: #ccc;
+	border: 1px solid #000;
+	box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+	left: 2px;
+}
+a{
+	color: #000;
+}
+h1::before{
+	content: 'My works';
+}
+p::before{
+	content: 'Here is the website examples of my works';
+}
+a::selection{
+	color: #000;
+	background: #fff;
+
+}
